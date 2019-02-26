@@ -17,7 +17,8 @@
     "hexo-html-minifier": "0.0.1",
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.11",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "snyk": "^1.134.2"
   },
   "hexoOrigin": {
     "version": "3.2.2"
@@ -50,5 +51,10 @@
       "on",
       "去掉文档页面URL中存在的日期字符串"
     ]
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
