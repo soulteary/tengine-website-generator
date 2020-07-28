@@ -16,7 +16,7 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-html-minifier": "0.0.1",
     "hexo-renderer-ejs": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.11",
+    "hexo-renderer-marked": "^3.0.0",
     "hexo-server": "^0.2.0"
   },
   "hexoOrigin": {
